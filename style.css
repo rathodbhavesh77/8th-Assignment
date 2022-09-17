@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.bg {
+  background-image: url(bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.flex-container {
+  display: flex;
+}
+.img {
+  margin-top: 5%;
+  margin-left: 20%;
+}
+.form {
+  background-color: white;
+  color: brown;
+  margin-top: 5%;
+  margin-right: 20%;
+  padding-top: 30px;
+  padding-left: 20px;
+  width: 600px;
+}
+label {
+  margin-top: 20px;
+}
+input,
+select,
+.card-expiry {
+  width: 90%;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-color: rgb(239, 236, 238);
+}
+.date {
+  width: 100%;
+  margin-left: 5px;
+}
+.cvv {
+  width: 100%;
+  margin-left: 5px;
+}
+.btn {
+  color: white;
+  width: 100%;
+  height: 30px;
+  margin-top: 30px;
+  border-radius: 15px;
+  background: linear-gradient(
+    90deg,
+    rgba(88, 5, 75, 0.79),
+    rgba(0, 196, 250, 0.8)
+  );
+}

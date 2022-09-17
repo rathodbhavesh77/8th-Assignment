@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body class="bg">
+    <div class="flex-container">
+      <img class="img" src="Shoe.png" alt="shoeImg" />
+      <div class="form">
+        <form action="input">
+         <h2>CheckOut</h2>
+        <br>
+         <h3>Payment Information</h3>
+        <br>
+         <label>Cardholder Name</label>
+        <br>
+        <br>
+         <input type="text" />
+        <br>
+        <br>
+         <label>Card Number</label>
+        <br>
+        <br>
+         <input type="number" />
+        <br>
+        <br>
+         <label>Card Type </label>
+        <br>
+        <br>
+         <select name="cardtype" id="card">
+            <br>
+          <option value="selection" selected>--Select a Card Type--</option>
+          <br>
+          <br>
+          <option value="credit">Credit Card</option>
+          <br>
+          <br>
+          <option value="debit">Debit Card</option>
+          <br>
+          <br>
+          <option value="visa">Visa Card</option>
+          <br>
+          <br>
+        </select>
+        <div class="card-expiry">
+            <br>
+          <label for="date"> Expiry </label>
+          <br>
+           <input type="date" class="date" />
+          <br>
+          <br>
+          <label for="cvv">CVV</label>
+          <br>
+          <input type="text" class="cvv" />
+          <br>
+          <button class="btn">CheckOut</button>
+      </div>
+    </div>
+</form>
+  </body>
+</html>
